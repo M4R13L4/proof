@@ -1,0 +1,180 @@
+.campo{
+	margin: 8px;
+	border-radius: 10px;
+	background-color: white;
+    border: 1px solid #e4eddb;
+    width: 90%;
+   
+}
+.campo2{
+	margin: 8px;
+	border-radius: 10px;
+	background-color: white;
+    border: 1px solid #e4eddb;
+    width: 90%;
+
+}
+div{
+	margin: 8px;
+	text-align: center;
+	align-items: center;
+}
+button{
+	border-radius: 15px;
+}
+.container{
+	text-align: center;
+	width: 80%;
+}
+
+.row{
+	margin: 0 auto;
+}
+
+
+.acomodar{
+	width:33%;
+  float:left;
+}
+.backnav{
+	width: 100%;
+	background-color: #144d53;
+	text-align: center;
+	padding: 5px;
+	margin: 0 auto;
+	
+
+}
+.separator{
+	border-right: 1px solid #e4eddb;
+	border-left: 1px solid #e4eddb;
+	padding: 10px;
+}
+.navbar{
+	padding: 0px;
+
+}
+.desplegar{
+	background-color: white;
+	border: 0px solid white;
+	color: #307672;
+}
+.bar{
+	background-color: #1a3c40;	
+}
+.navopt{
+	background-color: pink;
+
+}
+.form-control{
+	width: 500px;
+	border: 1px solid #13334c;
+}
+.sel{
+	width: 200px;
+}
+.add{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #307672;
+	background-color: #307672;
+	color: #e4eddb;
+	font-size: 15px; 
+}
+.add:hover{
+	background-color: #144d53;
+	border: #144d53;
+}
+.showData{
+  border-top: 1px solid #307672;
+  border-right: 0px solid white;
+  border-bottom: 0px solid white;
+  border-left: 0px solid white;
+  text-align: left;
+}
+.stateBtn{
+	background-color: #e4eddb;
+	color: black;
+	border: 0px solid;
+}
+
+.stateBtn:hover{
+	background-color: #307672;
+	color: #e4eddb;
+	border: 0px solid;
+}
+.checkbox {
+width:15px;
+height:15px;
+text-align: left;
+}
+.x {
+	text-align:  left;
+	width: 80%;
+	border: none;
+}
+.fondo{
+	background-color: #edf0c7;
+	border-radius: 10px;
+
+}
+
+.celda{
+	word-break:break-all;
+
+}
+
+/*table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}*/
+
+@font-face {
+        font-family: 'silvermain';
+        src: url('../fontawesome/fonts/silvermain/Silvermain.ttf');
+}
+
+.word{
+	font-family: silvermain;
+	font-size: 25px;
+}
+
+@font-face {
+        font-family: 'josefine';
+        src: url('../fontawesome/fonts/josefin-slab/JosefinSlab-SemiBold.ttf');
+}
+
+label,td,option,button,input,textarea{
+	font-family: josefine;
+	font-size: 20px;
+}
+/*#mainTable{
+	overflow:scroll;
+    max-height: 800px;
+	max-width: 700px;
+}*/
+.scroll{
+	overflow:auto;
+	width: 100%;
+}
+.asignados_modal{
+	color: #005874;
+	text-align: left;
+	margin-left: 80px;
+}
+.manager_modal{
+	color: black;
+	font-size: 18px;
+
+}
